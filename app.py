@@ -27,8 +27,6 @@ ASTRA_DB_ID=os.getenv("ASTRA_DB_ID")
 os.environ["HF_TOKEN"]=os.getenv("HF_TOKEN")
 os.environ["GOOGLE_CSE_ID"] = os.getenv("GOOGLE_CSE_ID")
 os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
-os.environ["GOOGLE_CSE_ID"] = "15929e2e83437452b"
-os.environ["GOOGLE_API_KEY"] = "AIzaSyC1yMjtCSLcCf5OxrxXMx7llkfBHBSH9YU"
 
 cassio.init(token=ASTRA_DB_APPLICATION_TOKEN,database_id=ASTRA_DB_ID)
 
